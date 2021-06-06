@@ -1,0 +1,56 @@
+  body{
+      margin: 50px
+  }
+  #app {
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  #calendar {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
+
+  .day {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #month{
+      font-weight:900
+  }
+
+  select{
+      margin-right: 20px;
+  }
+  .first{
+      margin-bottom: 20px;
+  }
+
+  .days{
+    text-align: right;
+  }
+  .selectors{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .btn{
+      margin-right: 20px;
+  }
+
+  .eventtext{
+    font-size: 0.8vw;
+  }
+
+  .today{
+    background-color: crimson;
+    border-radius: 80%;
+  }
